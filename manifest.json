@@ -2,7 +2,7 @@
   "name":"Calculator app",
   "short_name":"Calculat8",
   "id":"/calc.html",
-  "start_url":"/calc.html",
+  "start_url":"/",
   "protocol":"http",
   "background_color":"rgb(0, 119, 255)",
   "theme_color":"rgb(26, 25, 25)",
