@@ -1,6 +1,6 @@
 {
   "name":"Calculator app",
-  "short_name":"Calculat8",
+  "short_name":"Calcul8",
   "id":"/calc.html",
   "start_url":"index.html",
   "protocol":"http",

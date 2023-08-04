@@ -15,6 +15,21 @@ const display_output = document.querySelector('.display .output')
 let input = '';
 let lastEvaluated=false;
 
+
+function updateFontSize() {
+  const number = display_input.textContent;
+  if (number.length >= 6) {
+    display_input.style.fontSize = '16px'; // Decrease font size
+  } else {
+    display_input.style.fontSize = '24px'; // Reset font size
+  }
+}
+
+display_input.addEventListener('input', updateFontSize);
+
+
+
+
 const isOperator = (value)=>{
   return ['/','+','-','%','*'].includes(value)
 }
@@ -222,6 +237,9 @@ if("serviceWorker" in navigator){
     console.log(error);  
   })
 }
+
+
+
 
 
 
